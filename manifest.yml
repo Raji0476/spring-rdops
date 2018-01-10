@@ -1,0 +1,8 @@
+---
+applications:
+- name: spring-boot-web-jsp
+  memory: 512M
+  instances: 1
+  path: target/spring-boot-web-jsp-1.0.war
+  buildpack:  https://github.com/Raji0476/spring-rdops.git
+  
