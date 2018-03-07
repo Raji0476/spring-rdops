@@ -4,7 +4,7 @@ class Game {
        System.out.println("Welcome to the capitals name");
        Console console = System.console();
        String answer = console.readLine("What is the Capital of Australia?");
-       String capital = "Sydney";
+       String capital = "Canberra";
        if (answer.equals(capital)) {
            System.out.println("Correct!");
          }
